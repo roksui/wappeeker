@@ -1,0 +1,68 @@
+{
+  "Angular": {
+    "js": {
+      "document.querySelector('[ng-version]')": "",
+      "window.getAllAngularRootElements()": ""
+    }
+  },
+  "Backbone.js": {
+    "js": {
+      "Backbone": "",
+      "Backbone.VERSION": ""
+    }
+  },
+  "Ember.js": {
+    "js": {
+      "Ember": "",
+      "Ember.VERSION": "",
+      "EmberENV": ""
+    }
+  },
+  "Gitlab": {
+    "cookies": {
+      "_gitlab_session": ""
+    }
+  },
+  "Java": {
+    "cookies": {
+      "JSESSIONID": ""
+    }
+  },
+  "jQuery": {
+    "js": {
+      "$.fn.jquery": "",
+      "jQuery.fn.jquery": ""
+    }
+  },
+  "Moment.js": {
+    "js": {
+      "moment": "",
+      "moment.version": ""
+    }
+  },
+  "Next.js": {
+    "headers": {
+      "x-powered-by": "Next.js"
+    },
+    "js": {
+      "__NEXT_DATA__": "",
+      "next.version": ""
+    }
+  },
+  "React.js": {
+    "js": {
+      "Array.from(document.querySelectorAll('*')).some(e => e._reactRootContainer !== undefined)": "true"
+    }
+  },
+  "Svelte": {
+    "js": {
+      "window.__svelte": "",
+      "[...document.querySelectorAll('div')].some(e => e.className.includes('svelte-'))": ""
+    }
+  },
+  "Vue.js": {
+    "js": {
+      "window.__VUE__": "true"
+    }
+  }
+}
