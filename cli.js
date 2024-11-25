@@ -9,7 +9,7 @@ if (!targetUrl) {
   process.exit(1);
 }
 
-console.log(`Scanning ${targetUrl}...`);
+console.log(`Scanning [${targetUrl}]...`);
 
 try {
   await scan(targetUrl);

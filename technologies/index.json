@@ -51,7 +51,8 @@
   },
   "React.js": {
     "js": {
-      "Array.from(document.querySelectorAll('*')).some(e => e._reactRootContainer !== undefined)": "true"
+      "Array.from(document.querySelectorAll('*')).some(e => e._reactRootContainer !== undefined)": "true",
+      "Array.from(document.querySelectorAll('*')).some(e => { const names = Object.getOwnPropertyNames(e); if (names.some(name => name.startsWith('__react') || name.startsWith('_react'))) return true; else return false; })": true
     }
   },
   "Svelte": {
