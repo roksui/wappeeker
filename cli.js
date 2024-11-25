@@ -21,5 +21,6 @@ try {
 if (detectedTechs.size === 0) {
   console.log("Couldn't detect any technolgies for the website :(");
 } else {
-  console.log(`The website is likely to be using ${Array.from(detectedTechs)}.`);
+  console.log("The website is likely to be using:");
+  detectedTechs.forEach(tech => console.log(`- ${tech}`));
 }
